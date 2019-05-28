@@ -294,7 +294,8 @@ CrossValidationSSL.matrix <- function(X, y, classifiers, measures=list("Error"=m
                                            X_u=X_unlabeled, 
                                            y_u=y_unlabeled,
                                            X_test=X_test,
-                                           y_test=y_test))
+                                           y_test=y_test,
+                                           positive_case=positive_case))
         }
       }
   }
